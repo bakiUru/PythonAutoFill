@@ -1,0 +1,79 @@
+Input Formulario 
+-----------------------
+Personal
+-----------------------
+Apellido
+Nombre
+Genero
+FechaNac
+PaisNac
+Calle
+Barrio
+Ciudad
+Pais
+-----------------------
+Cotact Details
+-----------------------
+Email
+ArebyInmiAdvisor = No ->
+VisaMaster = Yes ->
+NextBtn ->
+-----------------------
+Passport Detail
+-----------------------
+PassportNumber
+REpassportNumber
+PassportExperyDate
+-----------------------
+Second From of Identification
+-----------------------
+IDtype=National ID ->
+DateIssued
+DateExpiry
+NextBtn->
+-----------------------
+Occupation
+-----------------------
+NextBtn ->
+-----------------------
+HEALTH
+-----------------------
+SelectOption
+1=NO
+2=NO
+3=NO
+4=NO
+5=NO
+6=NO
+7=NO
+8=NO
+9=YES
+NextBtn->
+-----------------------
+CHARACTER
+-----------------------
+SelectOption
+1=NO
+2=NO
+3=NO
+4=NAN
+5=NAN
+6=NO
+7=NO
+8=NO
+9=NO
+10=NO
+NextBtn->
+-----------------------
+WHS SPECIFIC
+-----------------------
+1=NO
+2=YES
+FechaIngresoNZ
+4=NO
+Fecha??
+5=YES
+6=YES
+NextBtn->
+-----------------------
+DESPUES DE CONFIRMAR VER OTROS ELEMENTOS
