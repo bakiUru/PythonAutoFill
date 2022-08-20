@@ -2,68 +2,68 @@ Input Formulario
 -----------------------
 Personal
 -----------------------
-Apellido
-Nombre
-Genero
-FechaNac
-PaisNac
-Calle
-Barrio
-Ciudad
-Pais
+Apellido=Rodriguez : ID=ContentPlaceHolder1_personDetails_familyNameTextBox
+Nombre=Marcelo	: ID=ContentPlaceHolder1_personDetails_givenName1Textbox
+Genero=Select-> Male : XPATH=/html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[1]/tbody/tr[9]/td[2]/div/a
+FechaNac=17/04/1990 : ID=ContentPlaceHolder1_personDetails_dateOfBirthDatePicker_DatePicker
+PaisNac=Select=Uruguay : XPATH =/html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[1]/tbody/tr[11]/td[2]/div/a
+Calle=Espronceda 2166 : id="ContentPlaceHolder1_addressContactDetails_address_address1TextBox"
+Barrio= Union : id="ContentPlaceHolder1_addressContactDetails_address_suburbTextBox"
+Ciudad= Montevideo : id="ContentPlaceHolder1_addressContactDetails_address_cityTextBox"
+Pais= Select=Uruguay : XPATH=/html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[2]/tbody/tr[7]/td[2]/div/a
 -----------------------
 Cotact Details
 -----------------------
-Email
-ArebyInmiAdvisor = No ->
-VisaMaster = Yes ->
-NextBtn ->
+Email= marksrod1990@gmail.com : id="ContentPlaceHolder1_addressContactDetails_contactDetails_emailAddressTextBox"
+ArebyInmiAdvisor Select= No -> XPATH = /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[4]/tbody/tr/td[2]/div/a
+VisaMaster Select= Yes -> XPATH=/html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[6]/tbody/tr/td[2]/div/a
+NextBtn ->id="ContentPlaceHolder1_wizardPageFooter_wizardPageNavigator_nextImageButton"
 -----------------------
 Passport Detail
 -----------------------
-PassportNumber
-REpassportNumber
-PassportExperyDate
+PassportNumber = D235837 : id="ContentPlaceHolder1_identification_passportNumberTextBox"
+REpassportNumber = D235837 : id="ContentPlaceHolder1_identification_confirmPassportNumberTextBox"
+PassportExperyDate = 15/01/2029 : id="ContentPlaceHolder1_identification_passportExpiryDateDatePicker_DatePicker"
 -----------------------
 Second From of Identification
 -----------------------
-IDtype=National ID ->
-DateIssued
-DateExpiry
-NextBtn->
+IDtype=Select=National ID -> : XPATH = /html/body/form/table/tbody/tr[2]/td/div/div/div/table[2]/tbody/tr/td/table/tbody/tr[10]/td[2]/div/a
+DateIssued = 22/12/2018 : id="ContentPlaceHolder1_identification_otherIssueDateDatePicker_DatePicker"
+DateExpiry = 22/12/2028 : id="ContentPlaceHolder1_identification_otherExpiryDateDatePicker_DatePicker"
+NextBtn-> id="ContentPlaceHolder1_wizardPageFooter_wizardPageNavigator_nextImageButton"
 -----------------------
 Occupation
 -----------------------
-NextBtn ->
+NextBtn -> id="ContentPlaceHolder1_wizardPageFooter_wizardPageNavigator_nextImageButton"
 -----------------------
 HEALTH
 -----------------------
 SelectOption
-1=NO
-2=NO
-3=NO
-4=NO
-5=NO
-6=NO
-7=NO
-8=NO
-9=YES
-NextBtn->
+1=NO : XPATH= /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[1]/tbody/tr[1]/td[2]/div/a
+2=NO : XPATH= /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[1]/tbody/tr[2]/td[2]/div/a
+3=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[1]/tbody/tr[4]/td[2]/div/a
+4=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[1]/tbody/tr[5]/td[2]/div/a
+5=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[1]/tbody/tr[6]/td[2]/div/a
+6=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[1]/tbody/tr[8]/td[2]/div/a
+7=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[1]/tbody/tr[9]/td[2]/div/a
+8=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[1]/tbody/tr[10]/td[2]/div/a
+9=YES : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table[2]/tbody/tr[1]/td[2]/div/a
+NextBtn-> id="ContentPlaceHolder1_wizardPageFooter_wizardPageNavigator_nextImageButton"
 -----------------------
 CHARACTER
 -----------------------
 SelectOption
-1=NO
-2=NO
-3=NO
+1=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table/tbody/tr[1]/td[2]/div/a
+2=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table/tbody/tr[2]/td[2]/div/a
+3=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table/tbody/tr[3]/td[2]/div/a
 4=NAN
 5=NAN
-6=NO
-7=NO
-8=NO
-9=NO
-10=NO
-NextBtn->
+6=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table/tbody/tr[7]/td[2]/div/a
+7=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table/tbody/tr[8]/td[2]/div/a
+8=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table/tbody/tr[9]/td[2]/div/a
+9=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table/tbody/tr[11]/td[2]/div/a
+10=NO : /html/body/form/table/tbody/tr[2]/td/div/div/div/table[1]/tbody/tr/td/table/tbody/tr[12]/td[2]/div/a
+NextBtn-> id="ContentPlaceHolder1_wizardPageFooter_wizardPageNavigator_nextImageButton"
 -----------------------
 WHS SPECIFIC
 -----------------------
@@ -71,9 +71,54 @@ WHS SPECIFIC
 2=YES
 FechaIngresoNZ
 4=NO
-Fecha??
+Fecha??-> Si c4 es YES fecha en la que visitaste NZ
 5=YES
 6=YES
-NextBtn->
+SubmitBtn->id="ContentPlaceHolder1_wizardPageFooter_wizardPageNavigator_submitImageButton"
 -----------------------
 DESPUES DE CONFIRMAR VER OTROS ELEMENTOS
+ProcedToSubmitBtn ->
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+ANTES DEL PAGO CLIQUEAR TODAS LAS CASILLAS
+id="ContentPlaceHolder1_falseStatementCheckBox"
+id="ContentPlaceHolder1_notesCheckBox"
+id="ContentPlaceHolder1_circumstancesCheckBox"
+id="ContentPlaceHolder1_warrantsCheckBox"
+id="ContentPlaceHolder1_informationCheckBox"
+id="ContentPlaceHolder1_healthCheckBox"
+id="ContentPlaceHolder1_adviceCheckBox"
+id="ContentPlaceHolder1_registrationCheckBox"
+id="ContentPlaceHolder1_entitlementCheckbox"
+id="ContentPlaceHolder1_permitExpiryCheckBox"
+id="ContentPlaceHolder1_medicalInsuranceCheckBox"
+
+POSIBLE RE-CAPTCHA
+
+SubmitBtn -> : id="ContentPlaceHolder1_submitImageButton"
+----------------------------------------------
+----------------------------------------------
+PAGO
+----------------------------------------------
+PayNowBtn-> : XPATH= /html/body/form/table/tbody/tr[2]/td/div/div/div/div[2]/table/tbody/tr/td[1]/a
+----------------------------------------------
+SecurePaymentSiteBtn-> XPATH= /html/body/form/table/tbody/tr[2]/td/div/div/div/div/div[2]/a
+-----------------------
+DATOS PAGOS
+-----------------------
+PayerName = Marcelo Rodriguez Gonzalez : id="_ctl0_ContentPlaceHolder1_payerNameTextBox"
+OkBtn -> id="_ctl0_ContentPlaceHolder1_okButton"
+-----------------------
+CARD DETAILS
+-----------------------
+CardNumber= : id="cardnumber"
+FechaVencCard= : id="expirydate"
+CSC_Card= : id="cardverificationcode"
+CardName= PayerName : id="cardholder"
+PayBtn-> : class="payment-button"
+-----------------------
+FINISH 
+-----------------------
+OkBtn->
+ 
